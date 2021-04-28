@@ -3,27 +3,109 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016AAEB025A0C7F500BAB851 /* SettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AAEAF25A0C7F500BAB851 /* SettingTableViewCell.swift */; };
+		016AAEB325A1121200BAB851 /* EditMomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016AAEB225A1121200BAB851 /* EditMomentViewController.swift */; };
 		016F39EE259672D30047AB67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39ED259672D30047AB67 /* AppDelegate.swift */; };
 		016F39F0259672D30047AB67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39EF259672D30047AB67 /* SceneDelegate.swift */; };
-		016F39F2259672D30047AB67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39F1259672D30047AB67 /* ViewController.swift */; };
+		016F39F2259672D30047AB67 /* AddNewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F39F1259672D30047AB67 /* AddNewContactViewController.swift */; };
 		016F39F5259672D30047AB67 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016F39F3259672D30047AB67 /* Main.storyboard */; };
 		016F39F7259672D60047AB67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016F39F6259672D60047AB67 /* Assets.xcassets */; };
 		016F39FA259672D60047AB67 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016F39F8259672D60047AB67 /* LaunchScreen.storyboard */; };
+		016F3A032596745E0047AB67 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 016F3A022596745E0047AB67 /* GoogleService-Info.plist */; };
+		016F3A2725967A4A0047AB67 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A2625967A4A0047AB67 /* Utilities.swift */; };
+		016F3A2C25967CB40047AB67 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A2B25967CB40047AB67 /* LoginViewController.swift */; };
+		016F3A2F259680710047AB67 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A2E259680710047AB67 /* Extension.swift */; };
+		016F3A33259695A90047AB67 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A32259695A90047AB67 /* RegisterViewController.swift */; };
+		016F3A38259695FB0047AB67 /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A37259695FB0047AB67 /* FUser.swift */; };
+		016F3A3F2596975A0047AB67 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A3E2596975A0047AB67 /* Constants.swift */; };
+		016F3A42259698730047AB67 /* FirebaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A41259698730047AB67 /* FirebaseListener.swift */; };
+		016F3A452596B9DB0047AB67 /* WeChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A442596B9DB0047AB67 /* WeChatViewController.swift */; };
+		016F3A482596C15F0047AB67 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A472596C15F0047AB67 /* ProfileViewController.swift */; };
+		016F3A4B2596CEB30047AB67 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A4A2596CEB30047AB67 /* StorageManager.swift */; };
+		016F3A4E2596D4D90047AB67 /* SearchContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A4D2596D4D90047AB67 /* SearchContactsViewController.swift */; };
+		016F3A512596DAFF0047AB67 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A502596DAFF0047AB67 /* ContactsTableViewCell.swift */; };
+		016F3A552596DCCA0047AB67 /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A542596DCCA0047AB67 /* ContactsViewController.swift */; };
+		016F3A602597B70D0047AB67 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A5F2597B70D0047AB67 /* UserProfileViewController.swift */; };
+		016F3A632597CFB30047AB67 /* ProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A622597CFB30047AB67 /* ProfileCollectionViewCell.swift */; };
+		016F3A662597D9750047AB67 /* LikeObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A652597D9750047AB67 /* LikeObject.swift */; };
+		016F3A692597D9830047AB67 /* MatchObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A682597D9830047AB67 /* MatchObject.swift */; };
+		016F3A6C2597DC300047AB67 /* GlobeFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A6B2597DC300047AB67 /* GlobeFunction.swift */; };
+		016F3A6F2597FE5B0047AB67 /* NewFriendApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A6E2597FE5B0047AB67 /* NewFriendApplicationViewController.swift */; };
+		016F3A722598244E0047AB67 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A712598244E0047AB67 /* Chat.swift */; };
+		016F3A76259826D90047AB67 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A75259826D90047AB67 /* ChatViewController.swift */; };
+		016F3A79259831440047AB67 /* RecentChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A78259831440047AB67 /* RecentChatTableViewCell.swift */; };
+		016F3A7C259924F20047AB67 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A7B259924F20047AB67 /* Message.swift */; };
+		016F3A7F259925380047AB67 /* mkMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A7E259925380047AB67 /* mkMessage.swift */; };
+		016F3A82259925EF0047AB67 /* PhotoMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A81259925EF0047AB67 /* PhotoMessage.swift */; };
+		016F3A8525992F130047AB67 /* OutgoingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A8425992F130047AB67 /* OutgoingMessage.swift */; };
+		016F3A8825994DE10047AB67 /* IncomingMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A8725994DE10047AB67 /* IncomingMessage.swift */; };
+		016F3A8B25995FE70047AB67 /* TypingListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A8A25995FE70047AB67 /* TypingListener.swift */; };
+		016F3A8E259A45C00047AB67 /* SearchChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A8D259A45C00047AB67 /* SearchChatViewController.swift */; };
+		016F3A91259A7B010047AB67 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A90259A7B010047AB67 /* DiscoverViewController.swift */; };
+		016F3A94259A8BE90047AB67 /* ShareMoment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A93259A8BE90047AB67 /* ShareMoment.swift */; };
+		016F3A97259A98C90047AB67 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A96259A98C90047AB67 /* AddItemViewController.swift */; };
+		016F3A9A259AB6F50047AB67 /* PhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A99259AB6F50047AB67 /* PhotoCollectionViewCell.swift */; };
+		016F3A9D259BDE600047AB67 /* ShareItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A9C259BDE600047AB67 /* ShareItemTableViewCell.swift */; };
+		016F3AA0259E7AB20047AB67 /* ItemDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3A9F259E7AB20047AB67 /* ItemDetailViewController.swift */; };
+		016F3AA3259EA7370047AB67 /* AccountSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016F3AA2259EA7370047AB67 /* AccountSettingViewController.swift */; };
+		0587BD670957D591FD051786 /* Pods_Wechat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 512EFA5337CCEE14E56CC3ED /* Pods_Wechat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		016AAEAF25A0C7F500BAB851 /* SettingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingTableViewCell.swift; sourceTree = "<group>"; };
+		016AAEB225A1121200BAB851 /* EditMomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMomentViewController.swift; sourceTree = "<group>"; };
 		016F39EA259672D30047AB67 /* Wechat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wechat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		016F39ED259672D30047AB67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		016F39EF259672D30047AB67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		016F39F1259672D30047AB67 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		016F39F1259672D30047AB67 /* AddNewContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewContactViewController.swift; sourceTree = "<group>"; };
 		016F39F4259672D30047AB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		016F39F6259672D60047AB67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		016F39F9259672D60047AB67 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		016F39FB259672D60047AB67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016F3A022596745E0047AB67 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		016F3A2625967A4A0047AB67 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		016F3A2B25967CB40047AB67 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		016F3A2E259680710047AB67 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		016F3A32259695A90047AB67 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		016F3A37259695FB0047AB67 /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		016F3A3E2596975A0047AB67 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		016F3A41259698730047AB67 /* FirebaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseListener.swift; sourceTree = "<group>"; };
+		016F3A442596B9DB0047AB67 /* WeChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeChatViewController.swift; sourceTree = "<group>"; };
+		016F3A472596C15F0047AB67 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		016F3A4A2596CEB30047AB67 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		016F3A4D2596D4D90047AB67 /* SearchContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchContactsViewController.swift; sourceTree = "<group>"; };
+		016F3A502596DAFF0047AB67 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		016F3A542596DCCA0047AB67 /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		016F3A5F2597B70D0047AB67 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileViewController.swift; sourceTree = "<group>"; };
+		016F3A622597CFB30047AB67 /* ProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCollectionViewCell.swift; sourceTree = "<group>"; };
+		016F3A652597D9750047AB67 /* LikeObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeObject.swift; sourceTree = "<group>"; };
+		016F3A682597D9830047AB67 /* MatchObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchObject.swift; sourceTree = "<group>"; };
+		016F3A6B2597DC300047AB67 /* GlobeFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobeFunction.swift; sourceTree = "<group>"; };
+		016F3A6E2597FE5B0047AB67 /* NewFriendApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFriendApplicationViewController.swift; sourceTree = "<group>"; };
+		016F3A712598244E0047AB67 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		016F3A75259826D90047AB67 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		016F3A78259831440047AB67 /* RecentChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentChatTableViewCell.swift; sourceTree = "<group>"; };
+		016F3A7B259924F20047AB67 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		016F3A7E259925380047AB67 /* mkMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mkMessage.swift; sourceTree = "<group>"; };
+		016F3A81259925EF0047AB67 /* PhotoMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoMessage.swift; sourceTree = "<group>"; };
+		016F3A8425992F130047AB67 /* OutgoingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutgoingMessage.swift; sourceTree = "<group>"; };
+		016F3A8725994DE10047AB67 /* IncomingMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingMessage.swift; sourceTree = "<group>"; };
+		016F3A8A25995FE70047AB67 /* TypingListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingListener.swift; sourceTree = "<group>"; };
+		016F3A8D259A45C00047AB67 /* SearchChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchChatViewController.swift; sourceTree = "<group>"; };
+		016F3A90259A7B010047AB67 /* DiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		016F3A93259A8BE90047AB67 /* ShareMoment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareMoment.swift; sourceTree = "<group>"; };
+		016F3A96259A98C90047AB67 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		016F3A99259AB6F50047AB67 /* PhotoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		016F3A9C259BDE600047AB67 /* ShareItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareItemTableViewCell.swift; sourceTree = "<group>"; };
+		016F3A9F259E7AB20047AB67 /* ItemDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailViewController.swift; sourceTree = "<group>"; };
+		016F3AA2259EA7370047AB67 /* AccountSettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingViewController.swift; sourceTree = "<group>"; };
+		3475A6A1A725A1751C01DB9D /* Pods-Wechat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wechat.debug.xcconfig"; path = "Target Support Files/Pods-Wechat/Pods-Wechat.debug.xcconfig"; sourceTree = "<group>"; };
+		512EFA5337CCEE14E56CC3ED /* Pods_Wechat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wechat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70FFA671DFE7807E0274AEF4 /* Pods-Wechat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wechat.release.xcconfig"; path = "Target Support Files/Pods-Wechat/Pods-Wechat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0587BD670957D591FD051786 /* Pods_Wechat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +125,8 @@
 			children = (
 				016F39EC259672D30047AB67 /* Wechat */,
 				016F39EB259672D30047AB67 /* Products */,
+				8135AA67469FD1AC99102C58 /* Pods */,
+				8F3A61E62FCC6C18CD91B818 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +143,101 @@
 			children = (
 				016F39ED259672D30047AB67 /* AppDelegate.swift */,
 				016F39EF259672D30047AB67 /* SceneDelegate.swift */,
-				016F39F1259672D30047AB67 /* ViewController.swift */,
+				016F3A35259695D90047AB67 /* ViewController */,
+				016F3A572596DDAB0047AB67 /* Cells */,
+				016F3A3A259696010047AB67 /* Model */,
+				016F3A2925967A900047AB67 /* Helpers */,
 				016F39F3259672D30047AB67 /* Main.storyboard */,
 				016F39F6259672D60047AB67 /* Assets.xcassets */,
 				016F39F8259672D60047AB67 /* LaunchScreen.storyboard */,
 				016F39FB259672D60047AB67 /* Info.plist */,
+				016F3A022596745E0047AB67 /* GoogleService-Info.plist */,
 			);
 			path = Wechat;
+			sourceTree = "<group>";
+		};
+		016F3A2925967A900047AB67 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				016F3A2625967A4A0047AB67 /* Utilities.swift */,
+				016F3A2E259680710047AB67 /* Extension.swift */,
+				016F3A3E2596975A0047AB67 /* Constants.swift */,
+				016F3A41259698730047AB67 /* FirebaseListener.swift */,
+				016F3A4A2596CEB30047AB67 /* StorageManager.swift */,
+				016F3A6B2597DC300047AB67 /* GlobeFunction.swift */,
+				016F3A8A25995FE70047AB67 /* TypingListener.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		016F3A35259695D90047AB67 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				016F3A442596B9DB0047AB67 /* WeChatViewController.swift */,
+				016F3A8D259A45C00047AB67 /* SearchChatViewController.swift */,
+				016F3A542596DCCA0047AB67 /* ContactsViewController.swift */,
+				016F3A4D2596D4D90047AB67 /* SearchContactsViewController.swift */,
+				016F3A472596C15F0047AB67 /* ProfileViewController.swift */,
+				016F3AA2259EA7370047AB67 /* AccountSettingViewController.swift */,
+				016F3A5F2597B70D0047AB67 /* UserProfileViewController.swift */,
+				016F39F1259672D30047AB67 /* AddNewContactViewController.swift */,
+				016F3A6E2597FE5B0047AB67 /* NewFriendApplicationViewController.swift */,
+				016F3A75259826D90047AB67 /* ChatViewController.swift */,
+				016F3A90259A7B010047AB67 /* DiscoverViewController.swift */,
+				016F3A96259A98C90047AB67 /* AddItemViewController.swift */,
+				016F3A9F259E7AB20047AB67 /* ItemDetailViewController.swift */,
+				016AAEB225A1121200BAB851 /* EditMomentViewController.swift */,
+				016F3A2B25967CB40047AB67 /* LoginViewController.swift */,
+				016F3A32259695A90047AB67 /* RegisterViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		016F3A3A259696010047AB67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				016F3A37259695FB0047AB67 /* FUser.swift */,
+				016F3A652597D9750047AB67 /* LikeObject.swift */,
+				016F3A682597D9830047AB67 /* MatchObject.swift */,
+				016F3A712598244E0047AB67 /* Chat.swift */,
+				016F3A7B259924F20047AB67 /* Message.swift */,
+				016F3A7E259925380047AB67 /* mkMessage.swift */,
+				016F3A81259925EF0047AB67 /* PhotoMessage.swift */,
+				016F3A8425992F130047AB67 /* OutgoingMessage.swift */,
+				016F3A8725994DE10047AB67 /* IncomingMessage.swift */,
+				016F3A93259A8BE90047AB67 /* ShareMoment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		016F3A572596DDAB0047AB67 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				016F3A502596DAFF0047AB67 /* ContactsTableViewCell.swift */,
+				016F3A622597CFB30047AB67 /* ProfileCollectionViewCell.swift */,
+				016F3A99259AB6F50047AB67 /* PhotoCollectionViewCell.swift */,
+				016F3A78259831440047AB67 /* RecentChatTableViewCell.swift */,
+				016F3A9C259BDE600047AB67 /* ShareItemTableViewCell.swift */,
+				016AAEAF25A0C7F500BAB851 /* SettingTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8135AA67469FD1AC99102C58 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3475A6A1A725A1751C01DB9D /* Pods-Wechat.debug.xcconfig */,
+				70FFA671DFE7807E0274AEF4 /* Pods-Wechat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8F3A61E62FCC6C18CD91B818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				512EFA5337CCEE14E56CC3ED /* Pods_Wechat.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +247,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 016F39FE259672D60047AB67 /* Build configuration list for PBXNativeTarget "Wechat" */;
 			buildPhases = (
+				015006ACEF716A0FD2785EAA /* [CP] Check Pods Manifest.lock */,
 				016F39E6259672D30047AB67 /* Sources */,
 				016F39E7259672D30047AB67 /* Frameworks */,
 				016F39E8259672D30047AB67 /* Resources */,
+				2563D4D5B4D3680615B8767F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,19 +302,100 @@
 				016F39FA259672D60047AB67 /* LaunchScreen.storyboard in Resources */,
 				016F39F7259672D60047AB67 /* Assets.xcassets in Resources */,
 				016F39F5259672D30047AB67 /* Main.storyboard in Resources */,
+				016F3A032596745E0047AB67 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		015006ACEF716A0FD2785EAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wechat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2563D4D5B4D3680615B8767F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wechat/Pods-Wechat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Wechat/Pods-Wechat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Wechat/Pods-Wechat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		016F39E6259672D30047AB67 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				016F39F2259672D30047AB67 /* ViewController.swift in Sources */,
+				016F3A42259698730047AB67 /* FirebaseListener.swift in Sources */,
+				016F3A4E2596D4D90047AB67 /* SearchContactsViewController.swift in Sources */,
+				016F3A7F259925380047AB67 /* mkMessage.swift in Sources */,
+				016F3A512596DAFF0047AB67 /* ContactsTableViewCell.swift in Sources */,
+				016F39F2259672D30047AB67 /* AddNewContactViewController.swift in Sources */,
+				016F3A9A259AB6F50047AB67 /* PhotoCollectionViewCell.swift in Sources */,
+				016AAEB025A0C7F500BAB851 /* SettingTableViewCell.swift in Sources */,
+				016F3A6F2597FE5B0047AB67 /* NewFriendApplicationViewController.swift in Sources */,
+				016F3A2F259680710047AB67 /* Extension.swift in Sources */,
+				016F3A602597B70D0047AB67 /* UserProfileViewController.swift in Sources */,
+				016F3A552596DCCA0047AB67 /* ContactsViewController.swift in Sources */,
+				016F3A33259695A90047AB67 /* RegisterViewController.swift in Sources */,
+				016F3AA3259EA7370047AB67 /* AccountSettingViewController.swift in Sources */,
+				016F3A7C259924F20047AB67 /* Message.swift in Sources */,
+				016F3A38259695FB0047AB67 /* FUser.swift in Sources */,
+				016F3A79259831440047AB67 /* RecentChatTableViewCell.swift in Sources */,
+				016F3A9D259BDE600047AB67 /* ShareItemTableViewCell.swift in Sources */,
+				016F3A76259826D90047AB67 /* ChatViewController.swift in Sources */,
+				016F3A8E259A45C00047AB67 /* SearchChatViewController.swift in Sources */,
+				016F3A94259A8BE90047AB67 /* ShareMoment.swift in Sources */,
+				016AAEB325A1121200BAB851 /* EditMomentViewController.swift in Sources */,
+				016F3A6C2597DC300047AB67 /* GlobeFunction.swift in Sources */,
 				016F39EE259672D30047AB67 /* AppDelegate.swift in Sources */,
+				016F3A632597CFB30047AB67 /* ProfileCollectionViewCell.swift in Sources */,
+				016F3A722598244E0047AB67 /* Chat.swift in Sources */,
+				016F3A482596C15F0047AB67 /* ProfileViewController.swift in Sources */,
+				016F3A692597D9830047AB67 /* MatchObject.swift in Sources */,
+				016F3A662597D9750047AB67 /* LikeObject.swift in Sources */,
+				016F3A8825994DE10047AB67 /* IncomingMessage.swift in Sources */,
+				016F3A452596B9DB0047AB67 /* WeChatViewController.swift in Sources */,
+				016F3A97259A98C90047AB67 /* AddItemViewController.swift in Sources */,
+				016F3A2725967A4A0047AB67 /* Utilities.swift in Sources */,
+				016F3A8B25995FE70047AB67 /* TypingListener.swift in Sources */,
+				016F3A8525992F130047AB67 /* OutgoingMessage.swift in Sources */,
+				016F3A2C25967CB40047AB67 /* LoginViewController.swift in Sources */,
+				016F3A82259925EF0047AB67 /* PhotoMessage.swift in Sources */,
 				016F39F0259672D30047AB67 /* SceneDelegate.swift in Sources */,
+				016F3AA0259E7AB20047AB67 /* ItemDetailViewController.swift in Sources */,
+				016F3A91259A7B010047AB67 /* DiscoverViewController.swift in Sources */,
+				016F3A3F2596975A0047AB67 /* Constants.swift in Sources */,
+				016F3A4B2596CEB30047AB67 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +539,7 @@
 		};
 		016F39FF259672D60047AB67 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3475A6A1A725A1751C01DB9D /* Pods-Wechat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +558,7 @@
 		};
 		016F3A00259672D60047AB67 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70FFA671DFE7807E0274AEF4 /* Pods-Wechat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
